@@ -1,5 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
+Version: 0.0.2
+Date: 20.01.2020
+  Bugfixes:
+    - replaced get_blueprint_entities() with cost_to_build to prevent dumps for unknown items in case entity name and item name are different
+  Changes:
+    - Corrected the changelog to reflect 0.0.1 as the initial version
+    - Corrected the README.md for typo's
+    - Remove debugging messages from code   
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
 Date: 19.01.2020
   Initial Commit:
     - First upload to portal
